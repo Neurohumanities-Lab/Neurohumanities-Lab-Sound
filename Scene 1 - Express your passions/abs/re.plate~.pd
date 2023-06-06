@@ -468,6 +468,7 @@
 #X obj 592 336 *~;
 #X obj 763 309 inlet~;
 #X obj 493 357 *~ 0.3;
+#X obj 509 226 else/lowpass~ 6000 0.4;
 #X connect 0 0 61 0;
 #X connect 1 0 39 0;
 #X connect 2 0 1 0;
@@ -487,8 +488,7 @@
 #X connect 16 0 4 0;
 #X connect 18 0 7 0;
 #X connect 19 0 9 0;
-#X connect 20 0 72 0;
-#X connect 20 0 78 0;
+#X connect 20 0 79 0;
 #X connect 22 0 23 0;
 #X connect 23 0 24 0;
 #X connect 24 0 7 1;
@@ -552,3 +552,5 @@
 #X connect 76 0 73 1;
 #X connect 77 0 76 1;
 #X connect 78 0 73 0;
+#X connect 79 0 72 0;
+#X connect 79 0 78 0;
