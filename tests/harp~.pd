@@ -66,6 +66,7 @@
 #X obj 508 275 / 8000;
 #X msg 339 526 clear;
 #X obj 507 409 block~ 2 1 1;
+#X obj 589 316 inlet;
 #X connect 0 0 1 0;
 #X connect 1 0 3 0;
 #X connect 1 1 2 0;
@@ -115,3 +116,4 @@
 #X connect 39 0 29 1;
 #X connect 40 0 39 0;
 #X connect 41 0 13 0;
+#X connect 43 0 31 1;

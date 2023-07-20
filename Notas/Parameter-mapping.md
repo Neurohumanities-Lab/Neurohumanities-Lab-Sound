@@ -38,7 +38,7 @@ User parameters
 ## Emotions (Pasiones) Mapping
 
 1. Love: 2. Mayor: Ionian with chromatisms, 4. Arritmico, 3. Tenso, 1. Rapido, 6. Alto, 8. Harp
-2. Hate: 2. Minor: Locrian or Phrygian, 4. Arritmico, 3. Tenso, 1. Rapido, 6. Alto, 8. Electric guitar & Drums
+2. Hate: 2. Minor: Locrian or Phrygian, 4. Arritmico, 3. Tenso, 1. Rapido, 6. Alto, 8. Electric guitar & Drums (tied to movement)
 3. Sadness: 2. Minor: Aeolina, 4. Ritmo, 3. Armonia, 1. Lento, 6. Bajo, 8. Cello.
 4. Adminiration: 2. Mayor: Lydian, 4. Ritmo, 3. Armonia, 1. Rapido, 6. Alto, 8. Organ.
 5. Desire: 2. Minor: Dorian, 4. Ritmo, 3. Armonia, 1. Tempo, 6. Medio, 8. Violin, Saxophone
