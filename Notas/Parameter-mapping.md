@@ -35,19 +35,12 @@ User parameters
 * Movement: 6. registro, 8. brillo
 * Concentration: 5. dinamica, 7. densidad
 
-## Emotions Mapping
+## Emotions (Pasiones) Mapping
 
-1. Love: 2. Mayor, 4. Arritmico, 3. Tenso, 1. Rapido, 6. Alto
-Instrumento: Harpa. romantic scales? mayor con cromatismos x
-2. Hate: 2. Menor, 4. Arritmico, 3. Tenso, 1. Rapido, 6. Alto
-Guitarra electrica distorsionada and drums. Locrio o frigio. x
-3. Sadness: 2. Menor, 4. Ritmo, 3. Armonia, 1. Lento, 6. Bajo
-Cello, portamento with slow notes Menor x
-4. Adminiration: 2. Pentatonica, 4. Ritmo, 3. Armonia, 1. Rapido, 6. Alto
-Organ. Lydian x
-5. Desire: 2. Mayor, 4. Ritmo, 3. Armonia, 1. Tempo, 6. Medio
-Saxophone? Dorian x
-6. Joy: 2. Mayor, 4. Ritmo, 3. Armonia, 1. Rapido, 6. Alto
-Trumpet. Mixolydian x 
-7. Generosity: 2. Mayor, 4. Puntual, 3. Consonante, 1. Rapido, 6. Alto
-Acoustic Guitar. Pentatonic. x
+1. Love: 2. Mayor: Ionian with chromatisms, 4. Arritmico, 3. Tenso, 1. Rapido, 6. Alto, 8. Harp
+2. Hate: 2. Minor: Locrian or Phrygian, 4. Arritmico, 3. Tenso, 1. Rapido, 6. Alto, 8. Electric guitar & Drums
+3. Sadness: 2. Minor: Aeolina, 4. Ritmo, 3. Armonia, 1. Lento, 6. Bajo, 8. Cello.
+4. Adminiration: 2. Mayor: Lydian, 4. Ritmo, 3. Armonia, 1. Rapido, 6. Alto, 8. Organ.
+5. Desire: 2. Minor: Dorian, 4. Ritmo, 3. Armonia, 1. Tempo, 6. Medio, 8. Violin, Saxophone
+6. Joy: 2. Mayor: Mixolydian, 4. Ritmo, 3. Armonia, 1. Rapido, 6. Alto, 8. Trumpet, xylophone, Ukelele
+7. ~~Generosity: 2. Mayor: Pentatonic, 4. Puntual, 3. Consonante, 1. Rapido, 6. Alto, 8. Acoustic Guitar. Vibraphone x~~
