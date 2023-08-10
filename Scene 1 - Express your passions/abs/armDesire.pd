@@ -55,8 +55,8 @@
 #X msg 27 122 \$1 20;
 #X obj 27 146 line~;
 #X obj 861 677 == 3;
-#X obj 719 643 *~ 0.2;
-#X obj 611 660 *~ 0.7;
+#X obj 611 658 *~ 0.3;
+#X obj 719 643 *~ 0.1;
 #X connect 1 0 2 0;
 #X connect 2 0 4 0;
 #X connect 3 0 17 0;
@@ -112,5 +112,5 @@
 #X connect 53 0 54 0;
 #X connect 54 0 1 0;
 #X connect 55 0 0 0;
-#X connect 56 0 36 0;
-#X connect 57 0 35 0;
+#X connect 56 0 35 0;
+#X connect 57 0 36 0;

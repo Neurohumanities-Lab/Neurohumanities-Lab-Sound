@@ -37,8 +37,8 @@
 #X msg 525 342 \$1 80;
 #X obj 472 397 lop~ 25;
 #X obj 31 392 else/lowpass~ 2000 0.4;
-#X obj 475 523 *~ 0.5;
-#X obj 345 523 *~ 1;
+#X obj 475 523 *~ 0.25;
+#X obj 345 523 *~ 0.5;
 #X connect 0 0 38 0;
 #X connect 0 0 39 0;
 #X connect 1 0 2 0;

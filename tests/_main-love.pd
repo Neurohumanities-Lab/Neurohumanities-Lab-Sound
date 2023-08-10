@@ -1,4 +1,4 @@
-#N canvas -1966 41 1920 997 12;
+#N canvas 4 17 1920 997 12;
 #X msg 23 171 0 2 4 5 7 9 11;
 #X obj 23 195 array set \$0-scale;
 #X obj 63 229 array define -k -yrange 0 11 \$0-scale 7;

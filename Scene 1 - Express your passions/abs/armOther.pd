@@ -55,7 +55,7 @@
 #X obj 126 252 noise~;
 #X obj 861 677 == 0;
 #X obj 126 406 else/highpass~ \$1 0.7;
-#X obj 611 661 *~ 2;
+#X obj 611 661 *~ 1;
 #X connect 1 0 55 1;
 #X connect 2 0 14 0;
 #X connect 3 0 30 0;
