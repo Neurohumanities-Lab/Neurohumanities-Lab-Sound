@@ -59,7 +59,7 @@
 #X obj 158 799 hip~ 1000;
 #X obj 158 823 else/lowpass~ 4000 0.4;
 #X obj 157 957 hip~ 200;
-#X obj 586 97 hsl 128 19 0 127 0 1 \$0-velocidad-s empty velocidad -2 -10 0 12 #00ff04 #000000 #000000 1736 1;
+#X obj 586 97 hsl 128 19 0 127 0 1 \$0-velocidad-s empty velocidad -2 -10 0 12 #00ff04 #000000 #000000 0 1;
 #X floatatom 582 122 5 0 0 0 - - - 0;
 #X obj 583 145 / 127;
 #X obj 577 696 clip 1 127;
@@ -166,7 +166,7 @@
 #X obj 337 929 line~;
 #X msg 336 905 \$1 100;
 #X obj 131 1077 *~;
-#X obj 1439 374 hsl 128 19 0 127 0 1 empty empty Separacion -2 -10 0 12 #00ff04 #000000 #000000 1116 1;
+#X obj 1439 374 hsl 128 19 0 127 0 1 empty empty Separacion -2 -10 0 12 #00ff04 #000000 #000000 0 1;
 #X floatatom 1436 398 5 0 0 0 - - - 0;
 #X obj 1436 421 / 127;
 #X msg 1436 445 1 \$1;
