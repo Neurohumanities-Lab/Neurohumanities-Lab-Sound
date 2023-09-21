@@ -13,3 +13,8 @@ Efectos de voz para escena 4
     FX: Pitch contour hacia arriba
 7 - Neutral
     FX: Nada
+
+Se tiene una memoria de 3 emociones EEG y se suman o restan las valencias, dominancias y arrousal de cada una.
+Valencia = distorsion o alteracion del sonido 
+Dominancia = Probabilidad de notas y probablidad de descontrol aleatorio en el varios parametros del sonido
+Arrousal = Tempo
