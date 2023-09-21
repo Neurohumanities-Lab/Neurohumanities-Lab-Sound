@@ -1,4 +1,4 @@
-#N canvas 0 0 958 988 12;
+#N canvas 0 22 958 988 12;
 #X declare -path ./abs;
 #X obj 17 -8 cnv 15 320 40 empty empty Escena\ 2 20 20 0 18 #000000 #ffffff 0;
 #X obj 18 290 cnv 19 900 100 empty empty Emotion\ Detection\ Switch 20 20 0 18 #c6feff #404040 0;
@@ -7,7 +7,7 @@
 #X obj 66 159 hsl 101 19 0 127 0 1 \$0-temperature-s \$0-temperature-r temperature -2 -10 0 12 #d8fcfc #000000 #000000 3400 1;
 #X obj 66 199 hsl 101 19 0 127 0 1 \$0-electricity-s \$0-electricity-r electricity -2 -10 0 12 #d8fcfc #000000 #000000 3800 1;
 #X obj 66 239 hsl 101 19 0 127 0 1 \$0-heartRate-s \$0-heartRate-r heartRate -2 -10 0 12 #d8fcfc #000000 #000000 3200 1;
-#X obj 186 119 hsl 101 19 0 127 0 1 \$0-engagement-s \$0-engagement-r EEG:\ engagement -2 -10 0 12 #d8fcfc #000000 #000000 0 1;
+#X obj 186 119 hsl 101 19 0 127 0 1 \$0-engagement-s \$0-engagement-r EEG:\ engagement -2 -10 0 12 #d8fcfc #000000 #000000 10000 1;
 #X obj 718 40 cnv 15 220 240 empty empty Main 12 20 0 18 #feffc6 #404040 0;
 #N canvas 0 22 450 278 (subpatch) 0;
 #X array \$0-scope 4410 float 0;
@@ -18,7 +18,7 @@
 #X text 834 229 2;
 #X obj 17 397 cnv 19 900 435 empty empty OSC\ Communication\ Structure 20 20 0 18 #c6ffc7 #404040 0;
 #X obj 34 614 oscparse;
-#N canvas 0 0 1920 926 guts 0;
+#N canvas 0 22 1920 926 guts 0;
 #X obj 186 412 catch~ \$0-left;
 #X obj 176 520 dac~ 1;
 #X obj 306 520 dac~ 2;
@@ -596,7 +596,7 @@
 #X obj 497 348 bng 19 250 50 0 \$0-joy-s \$0-joy-r Joy 0 -10 0 12 #000000 #ff0400 #000000;
 #X obj 417 348 bng 19 250 50 0 \$0-desire-s \$0-desire-r Desire -10 -10 0 12 #000000 #ff0400 #000000;
 #X obj 457 348 bng 19 250 50 0 \$0-admiration-s \$0-admiration-r Admiration -20 30 0 12 #000000 #ff0400 #000000;
-#X obj 44 348 hradio 19 1 0 7 \$0-emotion-s \$0-emotion-r Emotion:Hate 0 -10 0 12 #fcfcfc #000000 #000000 0;
+#X obj 44 348 hradio 19 1 0 7 \$0-emotion-s \$0-emotion-r Emotion:Sadness 0 -10 0 12 #fcfcfc #000000 #000000 0;
 #X text 335 307 Emotion Selected;
 #X text 157 720 Port \; 5001 = MediaPipe \; 6001 = Biometrics \; 7001 = Real Emotion \; 8000 = selected-emotion \; 9001 = Engagement \;;
 #X obj 1061 471 r \$0-osc;
