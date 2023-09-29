@@ -88,6 +88,12 @@
 #X text 442 262 2;
 #X obj 232 121 tgl 19 0 \$0-rec-s \$0-rec-r REC 0 -10 0 12 #fcfcfc #fcfcfc #000000 0 1;
 #X obj 233 162 vu 19 120 \$0-vu empty -1 -10 0 12 #404040 #000000 1 0;
+#X text 560 127 Archivo > Preferencias \; > Editar preferencias > Preferencias de audio;
+#X text 560 177 Sistema de audio > standard (portaudio);
+#X text 559 198 Velocidad de muestro: 96 kHz;
+#X text 559 218 Entrada/Salida: Windows WASHAPI: 4-USB Audio CODEC;
+#X text 559 238 Retardo (mseg): 20 (subir a 40 o 80 si causa ruido);
+#X text 560 87 Configuraciones de audio:;
 #X connect 0 0 2 0;
 #X connect 1 0 0 0;
 #X connect 2 0 6 0;
