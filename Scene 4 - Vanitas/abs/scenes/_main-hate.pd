@@ -228,6 +228,7 @@
 #X obj 902 826 *~ 0.5;
 #X obj 902 861 throw~ \$1-emotionReverb;
 #X obj 577 807 *~ 0.5;
+#X obj 577 831 hip~ 400;
 #X connect 0 0 30 0;
 #X connect 2 0 69 0;
 #X connect 3 0 84 0;
@@ -372,4 +373,5 @@
 #X connect 129 0 29 2;
 #X connect 130 0 35 0;
 #X connect 131 0 132 0;
-#X connect 133 0 89 0;
+#X connect 133 0 134 0;
+#X connect 134 0 89 0;
