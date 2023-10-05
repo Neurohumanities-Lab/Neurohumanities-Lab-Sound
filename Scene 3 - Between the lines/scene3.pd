@@ -638,11 +638,11 @@
 #X text 947 169 Velocidad de muestro: 44.1 kHz;
 #X obj 388 119 tgl 19 0 \$0-rec-s \$0-rec-r REC 0 -10 0 12 #fcfcfc #fcfcfc #000000 0 1;
 #X obj 389 160 vu 19 120 \$0-vu empty -1 -10 0 12 #404040 #000000 1 0;
-#X obj 34 509 netreceive -u -b 5003;
+#X obj 34 489 netreceive -u -b 5003;
 #X text 947 209 Retardo (mseg): 24 (subir a 40 o 80 si causa ruido);
 #X text 446 108 Presionar el boton "Direct Monitor" \; para escuchar el microfono.;
 #X text 147 710 Port \; 5003 = Mouth \; 5004 = Rec/Stop \; 6001 = Biometrics \; 7001 = Real Emotion \; 9001 = Engagement \;;
-#X obj 54 539 netreceive -u -b 5004;
+#X obj 54 519 netreceive -u -b 5004;
 #X obj 551 700 r \$0-osc;
 #X obj 551 724 route rec stop;
 #X obj 551 758 t b b;
@@ -651,6 +651,7 @@
 #X msg 583 811 1;
 #X obj 583 835 s \$0-rec-r;
 #X text 551 676 OSC Recording;
+#X obj 84 542 netreceive -u -b 5005;
 #X connect 14 0 16 0;
 #X connect 14 0 30 0;
 #X connect 16 0 17 0;
@@ -700,3 +701,4 @@
 #X connect 95 0 98 0;
 #X connect 96 0 97 0;
 #X connect 97 0 98 0;
+#X connect 100 0 14 0;
