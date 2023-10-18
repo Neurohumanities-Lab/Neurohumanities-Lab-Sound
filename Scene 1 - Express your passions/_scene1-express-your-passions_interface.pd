@@ -1,5 +1,5 @@
-#N struct 1246-point float x0 float y0 float xs float ys float fg float in float gridx float gridy;
-#N struct 1259-point float x0 float y0 float xs float ys float fg float in float gridx float gridy;
+#N struct 1365-point float x0 float y0 float xs float ys float fg float in float gridx float gridy;
+#N struct 1378-point float x0 float y0 float xs float ys float fg float in float gridx float gridy;
 #N canvas -1792 34 1385 988 12;
 #X declare -path ./abs;
 #X obj 17 62 cnv 15 320 240 empty empty MediaPipe\ Connection 20 20 0 18 #e3c6ff #404040 0;

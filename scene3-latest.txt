@@ -1,2 +1,6 @@
-C:/Users/Neurohumanities/Documents/recordings/scene3-sound/2023y10m10dTuesday-14h49m15s-recording.wav;
-C:/Users/Neurohumanities/Documents/recordings/scene3-sound/2023y10m10dTuesday-14h49m28s-recording.wav;
+C:/Users/Neurohumanities/Documents/recordings/scene3-sound/2023y10m18dWednesday-16h43m6s-recording.wav;
+C:/Users/Neurohumanities/Documents/recordings/scene3-sound/2023y10m18dWednesday-16h43m23s-recording.wav;
+C:/Users/Neurohumanities/Documents/recordings/scene3-sound/2023y10m18dWednesday-16h44m8s-recording.wav;
+C:/Users/Neurohumanities/Documents/recordings/scene3-sound/2023y10m18dWednesday-16h44m51s-recording.wav;
+C:/Users/Neurohumanities/Documents/recordings/scene3-sound/2023y10m18dWednesday-16h45m18s-recording.wav;
+C:/Users/Neurohumanities/Documents/recordings/scene3-sound/2023y10m18dWednesday-16h46m3s-recording.wav;
